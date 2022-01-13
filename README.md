@@ -1,6 +1,6 @@
 # Peloton Summary
 
-This project provides an overvieew on how to collect personal Peloton data to create and summarize one's own workout information.
+This project provides an overview on how to collect personal Peloton data to create and summarize one's own workout information.
 
 ## Peloton Background
 
