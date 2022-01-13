@@ -22,7 +22,7 @@ Data was then summarized using R to produce tables displaying workout informatio
 
 ## gT
 
-![plot](./images/peloton-gt.png)
+![plot](./images/peloton-gt.jpeg)
 
 ### Reactable
 Interactive version available [here](https://www.tanyashapiro.com/interactive-visuals/peloton-summary).
