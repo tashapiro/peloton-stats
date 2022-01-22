@@ -22,13 +22,17 @@ Images for each instructor were downloaded using the image links collected from 
 Data was then summarized using R to produce tables displaying workout information by instructor. Tables were created using **[gtExtra](https://jthomasmock.github.io/gtExtras/)** and **[reactablefmtr](https://github.com/kcuilla/reactablefmtr)**. Both libraries are great at adding additional flair to table summaries, e.g. sparklines, heatmaps, and embedded images. Reactable also adds a layer of interactivness with tables - tables are searchable and sortable and graphic hover includes a tooltip. This table can be exported as an html file.
 
 
-## gT
+### Instructor Summary Tables
 
+#### GT Table
 ![plot](./images/peloton-gt.jpeg)
 
-### Reactable
+#### Reactable
 Interactive version available [here](https://www.tanyashapiro.com/interactive-visuals/peloton-summary).
 
 ![plot](./images/peloton-reactable.png)
+
+### Peloton Active Days Calendar
+![plot](./images/peloton_calendar.png)
 
 
