@@ -17,6 +17,15 @@ Data was collected using the Peloton API with an R wrapper, pelotonR. The R libr
 Images for each instructor were downloaded using the image links collected from the API. Images for all instructors are also hosted [here](./images/instructors).
 
 
+## Shiny Application 
+
+Using my Peloton data, I developed an application using **Shiny** to analyze my fitness data. The application has different filter inputs- such as date, workout type, and class duration- to dynamically refresh the table summary by instructor. Table summary produced using **reactable** and **reactablefmtr**. The application is available [here](https://www.tanyashapiro.com/interactive-visuals/peloton-summary).
+
+https://user-images.githubusercontent.com/44143974/166164291-641a6548-3058-47b2-9f03-65761bf5fcd3.mov
+
+
+
+
 ## Visualizations
 
 Data was then summarized using R to produce tables displaying workout information by instructor. Tables were created using **[gtExtra](https://jthomasmock.github.io/gtExtras/)** and **[reactablefmtr](https://github.com/kcuilla/reactablefmtr)**. Both libraries are great at adding additional flair to table summaries, e.g. sparklines, heatmaps, and embedded images. Reactable also adds a layer of interactivness with tables - tables are searchable and sortable and graphic hover includes a tooltip. This table can be exported as an html file.
