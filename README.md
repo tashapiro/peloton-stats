@@ -12,7 +12,7 @@ Excerpt from [Wikipedia](https://en.wikipedia.org/wiki/Peloton_(exercise_equipme
 
 ## Data Collection
 
-Data was collected using the Peloton API with an R wrapper, pelotonR. The R library pelotonR was created by Laura Ellis, GitHub documentation can be found [here](https://github.com/lgellis/pelotonR/tree/master/R). To use the API, one must provide their **username** and **password** for authentication - no token is required at this time. Data calls are specific to user's personal information.
+Data was collected using the Peloton API with an R wrapper, **pelotonR**. The R library pelotonR was created by Laura Ellis, GitHub documentation can be found [here](https://github.com/lgellis/pelotonR/tree/master/R). To use the API, one must provide their **username** and **password** for authentication - no token is required at this time. Data calls are specific to user's personal information.
 
 Images for each instructor were downloaded using the image links collected from the API. Images for all instructors are also hosted [here](./images/instructors).
 
