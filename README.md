@@ -37,8 +37,6 @@ Data was then summarized using R to produce tables displaying workout informatio
 ![plot](./images/peloton-gt.jpeg)
 
 #### Reactable
-Interactive version available [here](https://www.tanyashapiro.com/interactive-visuals/peloton-summary).
-
 ![plot](./images/peloton-reactable.png)
 
 ### Peloton Active Days Calendar
