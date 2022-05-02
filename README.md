@@ -28,18 +28,21 @@ https://user-images.githubusercontent.com/44143974/166164291-641a6548-3058-47b2-
 
 ## Visualizations
 
-Data was then summarized using R to produce tables displaying workout information by instructor. Tables were created using **[gtExtra](https://jthomasmock.github.io/gtExtras/)** and **[reactablefmtr](https://github.com/kcuilla/reactablefmtr)**. Both libraries are great at adding additional flair to table summaries, e.g. sparklines, heatmaps, and embedded images. Reactable also adds a layer of interactivness with tables - tables are searchable and sortable and graphic hover includes a tooltip. This table can be exported as an html file.
-
-
-### Instructor Summary Tables
-
-#### GT Table
+### Instructor Summary - GT Table
+Personal Workout Summary for 2021 by Instructor. Tables created using **[gtExtra](https://jthomasmock.github.io/gtExtras/)**.
 ![plot](./images/peloton-gt.jpeg)
 
-#### Reactable
+### [Instructor Summary - Reactable](https://github.com/tashapiro/peloton-stats/blob/main/code/instructor-reacttable.R)
+Additional table summary using **reactable** and **[reactablefmtr](https://github.com/kcuilla/reactablefmtr)**.
 ![plot](./images/peloton-reactable.png)
 
-### Peloton Active Days Calendar
+### [Active Days Calendar](./code/peloton-active-days-calendar.R)
+Graphic produced in the style of Peloton's Active Days Calendar. Depicts personal workouts for 2021 calendary year. Colors denote class types taken. Visual created using **ggplot**.
 ![plot](./images/peloton_calendar.png)
+
+### [Cumulative Time - Bar Race](./code/peloton-bar-race.R)
+Depicts cumulative workout time per Peloton instructor from September 2020 through April 2022. Visual exported as GIF, rendered using **ggplot** and **ggannimate**.
+
+![plot](./images/peloton-bar-race.gif)
 
 
