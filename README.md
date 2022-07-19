@@ -17,24 +17,17 @@ Data was collected using the Peloton API with an R wrapper, **pelotonR**. The R 
 Images for each instructor were downloaded using the image links collected from the API. Images for all instructors are also hosted [here](./images/instructors).
 
 
-## Shiny Application 
-
-Using my Peloton data, I developed an application using **Shiny** to analyze my fitness data. The application has different filter inputs- such as date, workout type, and class duration- to dynamically refresh the table summary by instructor. Table summary produced using **reactable** and **reactablefmtr**. The application is available [here](https://www.tanyashapiro.com/interactive-visuals/peloton-summary).
-
-https://user-images.githubusercontent.com/44143974/166164291-641a6548-3058-47b2-9f03-65761bf5fcd3.mov
-
-
-
 
 ## Visualizations
+
+### [Instructor Leaderboard - Reactable](https://github.com/tashapiro/peloton-stats/blob/main/code/peloton-nested-reacttable.R)
+My personal instructor leaderboard so far this year (2022). Table created using **reactable** and **[reactablefmtr](https://github.com/kcuilla/reactablefmtr)**. Clicking on the detail expansion reveals aggregate info per fitness discipline. The detail expansion section was created with a nested reactable, I learned how to embed tables from [Vishal Katti's tutorial](https://www.vishalkatti.com/posts/2021-07-27-drilldown/).
+
+![plot](./images/peloton-lb.gif)
 
 ### Instructor Summary - GT Table
 Personal Workout Summary for 2021 by Instructor. Tables created using **[gtExtra](https://jthomasmock.github.io/gtExtras/)**.
 ![plot](./images/peloton-gt.jpeg)
-
-### [Instructor Summary - Reactable](https://github.com/tashapiro/peloton-stats/blob/main/code/instructor-reacttable.R)
-Additional table summary using **reactable** and **[reactablefmtr](https://github.com/kcuilla/reactablefmtr)**.
-![plot](./images/peloton-reactable.png)
 
 ### [Active Days Calendar](./code/peloton-active-days-calendar.R)
 Graphic produced in the style of Peloton's Active Days Calendar. Depicts personal workouts for 2021 calendary year. Colors denote class types taken. Visual created using **ggplot**.
@@ -45,4 +38,10 @@ Depicts cumulative workout time per Peloton instructor from September 2020 throu
 
 ![plot](./images/peloton-bar-race.gif)
 
+
+## Shiny Application 
+
+Using my Peloton data, I developed an application using **Shiny** to analyze my fitness data. The application has different filter inputs- such as date, workout type, and class duration- to dynamically refresh the table summary by instructor. Table summary produced using **reactable** and **reactablefmtr**. 
+
+https://user-images.githubusercontent.com/44143974/166164291-641a6548-3058-47b2-9f03-65761bf5fcd3.mov
 
