@@ -5,6 +5,9 @@ library(showtext)
 library(htmltools)
 library(htmlwidgets)
 
+#use this url to append instructor images later in reactable
+base_image_url<-'https://raw.githubusercontent.com/tashapiro/peloton-stats/main/images/instructors-cropped/'
+
 #import data
 df<-read.csv("https://raw.githubusercontent.com/tashapiro/peloton-stats/main/data/peloton_data.csv")
 df$month<-format(as.Date(df$start_time),'%Y-%m')
