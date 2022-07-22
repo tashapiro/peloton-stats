@@ -34,7 +34,7 @@ Graphic produced in the style of Peloton's Active Days Calendar. Depicts persona
 ![plot](./images/peloton_calendar.png)
 
 
-### [Pedal To The Medal](./code/peloton-average-output.R)
+### [Pedal To The Metal](./code/peloton-average-output.R)
 
 Inspired by [Cedric Cédric's lollipop-jitter plot](https://www.cedricscherer.com/2019/05/17/the-evolution-of-a-ggplot-ep.-1/), I wanted to visualize my Peloton cycling metrics by instructor - am I pushing myself harder with a particular trainer? I used point shapes to indicate different class types. Important to note that class type can influence output: for instance, "Low Impact" classes call for less resistance (yielding less output) and "Intervals & Arms" classes have deliberate cycling breaks to focus on arm weight sections. Plot created with R **ggplot** and **ggimage**.
 
