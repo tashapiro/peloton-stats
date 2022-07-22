@@ -33,11 +33,19 @@ Personal Workout Summary for 2021 by Instructor. Tables created using **[gtExtra
 Graphic produced in the style of Peloton's Active Days Calendar. Depicts personal workouts for 2021 calendary year. Colors denote class types taken. Visual created using **ggplot**.
 ![plot](./images/peloton_calendar.png)
 
+
+### [Pedal To The Medal](./code/peloton-average-output.R)
+
+Inspired by [Cedric Cédric's lollipop-jitter plot](https://www.cedricscherer.com/2019/05/17/the-evolution-of-a-ggplot-ep.-1/), I wanted to visualize my Peloton cycling metrics by instructor - am I pushing myself harder with a particular trainer? I used point shapes to indicate different class types. Important to note that class type can influence output: for instance, "Low Impact" classes call for less resistance (yielding less output) and "Intervals & Arms" classes have deliberate cycling breaks to focus on arm weight sections. Plot created with R **ggplot** and **ggimage**.
+
+
+![plot](./images/peloton-avg-output.jpeg)
+
+
 ### [Cumulative Time - Bar Race](./code/peloton-bar-race.R)
 Depicts cumulative workout time per Peloton instructor from September 2020 through April 2022. Visual exported as GIF, rendered using **ggplot** and **ggannimate**.
 
 ![plot](./images/peloton-bar-race.gif)
-
 
 ## Shiny Application 
 
