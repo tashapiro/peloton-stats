@@ -42,6 +42,13 @@ Inspired by [Cédric Scherer's lollipop-jitter plot](https://www.cedricscherer.c
 ![plot](./images/peloton-avg-output.jpeg)
 
 
+### [Change in Workout Habits](./code/peloton-ggbump.R)
+
+Peloton offers a variety of workout classes - yoga, strength, cycling, running, etc. I wanted to see if and how my workout habits have changed over the past year and a half. For this analysis, I used ggbump to visualize how I've prioritized my time across different workout types. I ranked each workout type based on cumulative hours spent. Not surprised to see a major shift in cycling as soon as I bought the Peloton Bike!
+
+![plot](./images/peloton-bump-chart.png)
+
+
 ### [Cumulative Time - Bar Race](./code/peloton-bar-race.R)
 Depicts cumulative workout time per Peloton instructor from September 2020 through April 2022. Visual exported as GIF, rendered using **ggplot** and **ggannimate**.
 
