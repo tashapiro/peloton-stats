@@ -1,7 +1,7 @@
 library(highcharter)
 library(tidyverse)
 
-#impoirt data
+#import data
 df <- read.csv("https://raw.githubusercontent.com/tashapiro/peloton-stats/main/data/peloton_data.csv")
 
 #clean up fitness discipline name, e.g. "bike_bootcamp" becomes "Bike Bootcamp"
