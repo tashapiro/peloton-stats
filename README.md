@@ -31,7 +31,7 @@ Personal Workout Summary for 2021 by Instructor. Tables created using **[gtExtra
 
 ### [Active Days Calendar](./code/peloton-active-days-calendar.R)
 Graphic produced in the style of Peloton's Active Days Calendar. Depicts personal workouts for 2021 calendary year. Colors denote class types taken. Visual created using **ggplot**.
-![plot](./images/peloton_calendar.png)
+![plot](./images/peloton-active-days.png)
 
 
 ### [Pedal To The Metal](./code/peloton-average-output.R)
