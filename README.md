@@ -4,7 +4,7 @@ This project provides an overview on how to collect personal Peloton data to cre
 
 ## Peloton Background
 
-Peloton is a tech/fitness company whose goal is to "bring ...the excitement of boutique fitness into the home." Peloton was founded in 2012, and produces fitess equipment such as the Peloton Bike and Peloton Tread. The company also rolled out an interactive app that allows users to take classes from anywhere (membership based fee). Although Peloton is known originally for their bike equipment and classes, the company has branched out into other modals of fitness.
+Peloton is a fitness company that produces exercise equipment, including stationary bicycles and treadmills, as well as a subscription-based fitness app. The company's products are designed to be used in the home and are accompanied by live and on-demand fitness classes that users can stream on their devices. Peloton's stationary bikes and treadmills are known for their sleek design and advanced technology, which includes touchscreens and other features that allow users to track their workouts and monitor their progress. The company's fitness app offers a wide range of classes, including cycling, running, strength training, yoga, and more.
 
 Excerpt from [Wikipedia](https://en.wikipedia.org/wiki/Peloton_(exercise_equipment_company)):
 
