@@ -34,14 +34,6 @@ Graphic produced in the style of Peloton's Active Days Calendar. Depicts persona
 ![plot](./images/peloton-active-days.png)
 
 
-### [Pedal To The Metal](./code/peloton-average-output.R)
-
-Inspired by [Cédric Scherer's lollipop-jitter plot](https://www.cedricscherer.com/2019/05/17/the-evolution-of-a-ggplot-ep.-1/), I wanted to visualize my Peloton cycling metrics by instructor - am I pushing myself harder with a particular trainer? I used point shapes to indicate different class types. Important to note that class type can influence output: for instance, "Low Impact" classes call for less resistance (yielding less output) and "Intervals & Arms" classes have deliberate cycling breaks to focus on arm weight sections. Plot created with R **ggplot** and **ggimage**.
-
-
-![plot](./images/peloton-avg-output.jpeg)
-
-
 ### [Change in Workout Habits](./code/peloton-ggbump.R)
 
 Peloton offers a variety of workout classes - yoga, strength, cycling, running, etc. I wanted to see if and how my workout habits have changed over the past year and a half. For this analysis, I used ggbump to visualize how I've prioritized my time across different workout types. I ranked each workout type based on cumulative hours spent. Not surprised to see a major shift in cycling as soon as I bought the Peloton Bike!
@@ -53,10 +45,4 @@ Peloton offers a variety of workout classes - yoga, strength, cycling, running, 
 Depicts cumulative workout time per Peloton instructor from September 2020 through April 2022. Visual exported as GIF, rendered using **ggplot** and **ggannimate**.
 
 ![plot](./images/peloton-bar-race.gif)
-
-## Shiny Application 
-
-Using my Peloton data, I developed an application using **Shiny** to analyze my fitness data. The application has different filter inputs- such as date, workout type, and class duration- to dynamically refresh the table summary by instructor. Table summary produced using **reactable** and **reactablefmtr**. 
-
-https://user-images.githubusercontent.com/44143974/166164291-641a6548-3058-47b2-9f03-65761bf5fcd3.mov
 
